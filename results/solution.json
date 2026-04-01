@@ -1,0 +1,171 @@
+{
+  "question_1": {
+    "status": "Optimal",
+    "budget_wan": 2400,
+    "total_purchase_wan": 2380,
+    "total_profit_wan": 58000,
+    "counts": {
+      "挖1": 1,
+      "挖2": 2,
+      "挖3": 10,
+      "挖4": 0
+    }
+  },
+  "question_2": {
+    "status": "Optimal",
+    "budget_wan": 2400,
+    "min_types": 3,
+    "selected_types": [
+      "挖1",
+      "挖2",
+      "挖3"
+    ],
+    "counts": {
+      "挖1": 7,
+      "挖2": 7,
+      "挖3": 3,
+      "挖4": 0
+    },
+    "assignments": [
+      {
+        "excavator": "挖1",
+        "truck": "矿1",
+        "excavator_count": 7,
+        "truck_count": 7,
+        "required_ratio": 1,
+        "effective_active_equivalent": 7.0,
+        "utilization_ratio": 1.0,
+        "five_year_output_m3": 12768000.0
+      },
+      {
+        "excavator": "挖2",
+        "truck": "矿2",
+        "excavator_count": 7,
+        "truck_count": 7,
+        "required_ratio": 1,
+        "effective_active_equivalent": 7.0,
+        "utilization_ratio": 1.0,
+        "five_year_output_m3": 11760000.0
+      },
+      {
+        "excavator": "挖3",
+        "truck": "矿3",
+        "excavator_count": 3,
+        "truck_count": 3,
+        "required_ratio": 1,
+        "effective_active_equivalent": 3.0,
+        "utilization_ratio": 1.0,
+        "five_year_output_m3": 4752000.0
+      }
+    ],
+    "summary": {
+      "purchase_wan": 2280.0,
+      "exc_fixed_operating_wan": 903.0,
+      "exc_fuel_wan": 3413.76,
+      "truck_fixed_operating_wan": 972.0,
+      "truck_fuel_wan": 2425.92,
+      "revenue_wan": 58560.0,
+      "total_profit_wan": 48565.32,
+      "total_output_m3": 29280000.0
+    }
+  },
+  "question_3": {
+    "status": "Optimal",
+    "budget_wan": 4000,
+    "min_types": 5,
+    "selected_types": [
+      "挖1",
+      "挖2",
+      "挖3",
+      "挖4",
+      "挖5",
+      "挖6"
+    ],
+    "counts": {
+      "挖1": 3,
+      "挖2": 3,
+      "挖3": 3,
+      "挖4": 2,
+      "挖5": 2,
+      "挖6": 1,
+      "挖7": 0,
+      "挖8": 0,
+      "挖9": 0,
+      "挖10": 0
+    },
+    "assignments": [
+      {
+        "excavator": "挖1",
+        "truck": "矿3",
+        "excavator_count": 3,
+        "truck_count": 5,
+        "required_ratio": 2,
+        "effective_active_equivalent": 2.5,
+        "utilization_ratio": 0.8333,
+        "five_year_output_m3": 4560000.0
+      },
+      {
+        "excavator": "挖2",
+        "truck": "矿4",
+        "excavator_count": 3,
+        "truck_count": 5,
+        "required_ratio": 2,
+        "effective_active_equivalent": 2.5,
+        "utilization_ratio": 0.8333,
+        "five_year_output_m3": 4200000.0
+      },
+      {
+        "excavator": "挖3",
+        "truck": "矿5",
+        "excavator_count": 3,
+        "truck_count": 5,
+        "required_ratio": 2,
+        "effective_active_equivalent": 2.5,
+        "utilization_ratio": 0.8333,
+        "five_year_output_m3": 3960000.0
+      },
+      {
+        "excavator": "挖4",
+        "truck": "矿6",
+        "excavator_count": 2,
+        "truck_count": 3,
+        "required_ratio": 2,
+        "effective_active_equivalent": 1.5,
+        "utilization_ratio": 0.75,
+        "five_year_output_m3": 2160000.0
+      },
+      {
+        "excavator": "挖5",
+        "truck": "矿7",
+        "excavator_count": 2,
+        "truck_count": 3,
+        "required_ratio": 2,
+        "effective_active_equivalent": 1.5,
+        "utilization_ratio": 0.75,
+        "five_year_output_m3": 2016000.0
+      },
+      {
+        "excavator": "挖6",
+        "truck": "矿8",
+        "excavator_count": 1,
+        "truck_count": 2,
+        "required_ratio": 2,
+        "effective_active_equivalent": 1.0,
+        "utilization_ratio": 1.0,
+        "five_year_output_m3": 1248000.0
+      }
+    ],
+    "summary": {
+      "purchase_wan": 3340.0,
+      "exc_fixed_operating_wan": 939.0,
+      "exc_fuel_wan": 2688.0,
+      "truck_fixed_operating_wan": 1932.0,
+      "truck_fuel_wan": 5308.8,
+      "revenue_wan": 36288.0,
+      "total_profit_wan": 22080.2,
+      "total_output_m3": 18144000.0
+    }
+  },
+  "hours_total": 9600,
+  "months_total": 60
+}
