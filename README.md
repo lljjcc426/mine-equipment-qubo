@@ -174,8 +174,3 @@ python .\src\solve_mothercup_d.py
 - QUBO / subQUBO 参考论文
 - 原始旧代码备份
 
-如果要继续写论文，建议优先阅读：
-
-- `references/2024年MathorCup数学应用挑战赛D题.pdf`
-- `references/D题附件4.pdf`
-- `references/基于基于多个解实例的subQUBO模型提取的混合退火方法.docx`
